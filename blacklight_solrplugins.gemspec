@@ -8,9 +8,9 @@ Gem::Specification.new do |s|
   s.name        = "blacklight_solrplugins"
   s.version     = BlacklightSolrplugins::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Jeff Chiu"]
-  s.email       = ["jeffchiu@upenn.edu"]
-  s.homepage    = "https://github.com/upenn-libraries/blacklight_solrplugins"
+  s.authors     = ["Jeff Chiu", "Steven Ng"]
+  s.email       = ["jeffchiu@upenn.edu", "steven.ng@temple.edu"]
+  s.homepage    = "https://github.com/tulibraries/blacklight_solrplugins"
   s.summary     = "Blacklight extension for solrplugins"
   s.description = "Blacklight extension for solrplugins"
   s.license     = "Apache 2.0"
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = ["lib"]
 
-  s.add_dependency "rails", "~> 4.2"
+  s.add_dependency "rails", "~> 5.0.0"
   s.add_dependency "blacklight", "~> 6.0"
 
   s.add_development_dependency "rspec-rails", "~> 3.5"
